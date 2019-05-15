@@ -47,7 +47,7 @@ Features which could be useful:
 
 ### Looking ahead (very much ahead) ###
 
-Should the project grow and become interetsing for small-medium libraries, some features might be added, like:
+Should the project grow and become interesting for small-medium libraries, some features might be added, like:
 - creation/management of end users
 - distinction between admin and end users
 - support for loans
