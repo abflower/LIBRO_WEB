@@ -3,7 +3,7 @@
 Libro is a desktop utility for the creation and consultation of a library catalogue. 
 It is written in Python and use a SQLite database. The GUI is written using the Tkinter module.
 
-For the existing release ses: https://alessandrobellafiore.com/projects/libro-1-0/download-libro/.
+For the existing release ses: https://alessandrobellafiore.com/projects/libro-1-0/.
 
 Some key features of the existing release are:
 - ability to add entries to the catalogue
