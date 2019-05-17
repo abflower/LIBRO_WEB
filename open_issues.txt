@@ -1,8 +1,8 @@
-~~~~~ ##### ~~~~~ ##### OPEN ISSUE ##### ~~~~~ ##### ~~~~~
+~~~~~ ##### ~~~~~ ##### OPEN ISSUES ##### ~~~~~ ##### ~~~~~
 This file contains some issues to be discussed/solved.
 We'll try to give them a number to keep it manageable until
 we adopt a better way to do this.
-~~~~~ ##### ~~~~~ ##### ~~~~##~~~~ ##### ~~~~~ ##### ~~~~~
+~~~~~ ##### ~~~~~ ##### ~~~~###~~~~ ##### ~~~~~ ##### ~~~~~
 
 #1 - Issue with triliteral and multiple authors
 Looking at the idea of having a join table to manage the many to
