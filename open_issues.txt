@@ -1,0 +1,13 @@
+~~~~~ ##### ~~~~~ ##### OPEN ISSUE ##### ~~~~~ ##### ~~~~~
+This file contains some issues to be discussed/solved.
+We'll try to give them a number to keep it manageable until
+we adopt a better way to do this.
+~~~~~ ##### ~~~~~ ##### ~~~~##~~~~ ##### ~~~~~ ##### ~~~~~
+
+#1 - Issue with triliteral and multiple authors
+Looking at the idea of having a join table to manage the many to
+many relation (authors/books) we need to determine how the triliteral
+used to identify the author (especially for Dewey decimal) is assigned
+if more than an author exists. Should there be a 'first author' field
+in the join table?
+
