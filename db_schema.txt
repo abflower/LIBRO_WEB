@@ -1,0 +1,65 @@
+[] denotes fields whose presence is to be discussed
+
+Table: Author
+    |
+    - id (int unique)
+    - name (varchar)
+    - middle_name (varchar)
+    - surname (varchar)
+    - trileteral (varchar unique)
+    [- initials (varchar)]
+
+Table: Book
+    |
+    - id (int unique)
+    - title (varchar)
+    [- long_title (varchar)]
+    - volume (int)
+    - year (int)
+    - publisher_id (int foreign key)
+    - pages
+    - language_id (int foreign key)
+    - dewey_id (int foreign key)
+    [- lcc_id (int foreign key)]
+    - isbn_10 (int)
+    - isbn_13 (int)
+
+Table: Author_book
+    |
+    - author_id (int foreign key)
+    - book_id (int foreign key)
+
+Table: Publisher
+    |
+    - id (int unique)
+    - name (varchar)
+    - city_id (int foreign key)
+    [- region_id (int foreign key)]
+    - state_id (int foreign key)
+
+Table: City
+    |
+    - id (int unique)
+    - name (varchar)
+    [- state_id (int foreign key)]
+
+Table: State
+    |
+    - id (int unique)
+    - name (varchar unique)
+
+Table: Language
+    |
+    - id (int unique)
+    - name (varchar)
+
+Table: Dewey
+    |
+    - id (int unique)
+    - class (varchar)
+    - subclass (varchar)
+
+[Table: LCC (Library of Congress)]
+    |
+    - id (int unique)
+    - number (int unique)
