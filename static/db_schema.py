@@ -19,5 +19,12 @@ tables = [
 
     '''Authors (id int not null auto_increment primary key, author varchar(65), name varchar(20),
     name_p varchar(5), m_name varchar(20), m_name_p varchar(5), surname varchar (20), trilet varchar(5),
-    constraint unique_author unique(author), constraint unique_trilet unique(trilet))'''
+    constraint unique_author unique(author), constraint unique_trilet unique(trilet))''',
+
+    '''Books (id int not null auto_increment primary key, library_code varchar(10), title varchar(100),
+    volume int, pages int, publisher_id int, language_id int, dewey_id int, lcc_id int, isbn_10 varchar(10),
+    isbn_13 varchar(13))''',
+
+    '''Auth_books (id int not null auto_increment primary key, author_id int,
+    book_id int, constraint unique_auth_book unique(author_id, book_id))'''
 ]
